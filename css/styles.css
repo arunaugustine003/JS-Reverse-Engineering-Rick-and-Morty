@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+#eyes,
+#eyes img {
+  position: absolute;
+}
+.eye:nth-child(1) {
+  top: 161px;
+  left: -205px;
+  width: 45px;
+}
+.eye:nth-child(2) {
+  top: 132px;
+  left: -70px;
+  width: 45px;
+}
+.eye:nth-child(3) {
+  top: -144px;
+  left: 103px;
+}
+.eye:nth-child(4) {
+  top: -152px;
+  left: 213px;
+}
